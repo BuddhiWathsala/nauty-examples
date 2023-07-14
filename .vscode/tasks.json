@@ -3,12 +3,11 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc-11 build active file",
-            "command": "g++",
+            "command": "gcc",
             "args": [
                 "-Wall",
-                "-std=c++11",
                 "-pthread",
-                "*.cpp",
+                "*.c",
                 "*.a",
                 "*.h",
                 "-g",
